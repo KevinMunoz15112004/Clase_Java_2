@@ -18,6 +18,6 @@ public class Videojuegos {
         System.out.println("Plataformas: " + this.plataformas);
         System.out.println("Clasificacion: " + this.clasificacion);
         System.out.println("Año Publicacion: " + this.anioPublicacion);
-        System.out.println("-------------------------------------------");
+        System.out.println("----------------------------------------");
     }
 }
