@@ -12,6 +12,43 @@ public class Libro {
             this.editorial = editorial;
             this.paginas = paginas;
         }
+
+        //getters
+        public String getTitulo() {
+            return titulo;
+        }
+
+        public String getAutor() {
+            return autor;
+        }
+
+        public String getEditorial() {
+            return editorial;
+        }
+
+        public int getPaginas() {
+            return paginas;
+        }
+
+        //setters
+
+        public void setTitulo(String titulo) {
+            this.titulo = titulo;
+        }
+
+        public void setAutor(String autor) {
+            this.autor = autor;
+        }
+
+        public void setEditorial(String editorial) {
+            this.editorial = editorial;
+        }
+
+        public void setPaginas(int paginas) {
+            this.paginas = paginas;
+        }
+
+    //metodos personalizados
         public void imprimir(){
             System.out.println("El título es: "+this.titulo);
             System.out.println("El autor es: "+this.autor);
@@ -24,5 +61,3 @@ public class Libro {
             return this.paginas+5;
         }
     }
-
-

@@ -5,6 +5,7 @@ public class Videojuegos {
     String clasificacion;
     int anioPublicacion;
 
+    //constructor con parámetros
     public Videojuegos(String nombre, String desarrollador, String plataformas, String clasificacion, int anioPublicacion) {
         this.nombre = nombre;
         this.desarrollador = desarrollador;
@@ -12,12 +13,44 @@ public class Videojuegos {
         this.clasificacion = clasificacion;
         this.anioPublicacion = anioPublicacion;
     }
-    public void mostrar() {
-        System.out.println("Nombre: " + this.nombre);
-        System.out.println("Desarrollador: " + this.desarrollador);
-        System.out.println("Plataformas: " + this.plataformas);
-        System.out.println("Clasificacion: " + this.clasificacion);
-        System.out.println("Año Publicacion: " + this.anioPublicacion);
-        System.out.println("---------------------------------------");
+
+    //Constructor vacio
+    public Videojuegos() {
     }
+
+    //getters
+    public String getNombre() {
+        return nombre;
+    }
+    public String getDesarrollador() {
+        return desarrollador;
+    }
+    public String getPlataformas() {
+        return plataformas;
+    }
+    public String getClasificacion() {
+        return clasificacion;
+    }
+    public int getAnioPublicacion() {
+        return anioPublicacion;
+    }
+
+    //setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setDesarrollador(String desarrollador) {
+        this.desarrollador = desarrollador;
+    }
+    public void setPlataformas(String plataformas) {
+        this.plataformas = plataformas;
+    }
+    public void setClasificacion(String clasificacion) {
+        this.clasificacion = clasificacion;
+    }
+    public void setAnioPublicacion(int anioPublicacion) {
+        this.anioPublicacion = anioPublicacion;
+    }
+
 }
+
