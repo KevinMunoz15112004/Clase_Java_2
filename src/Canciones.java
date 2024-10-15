@@ -8,48 +8,20 @@ public class Canciones {
     //constructor
 
     public Canciones(String nombre, String artista, String genero, String duracion, int anio) {
-        Nombre = nombre;
-        Artista = artista;
-        Genero = genero;
-        Duracion = duracion;
-        Anio = anio;
+        this.Nombre = nombre;
+        this.Artista = artista;
+        this.Genero = genero;
+        this.Duracion = duracion;
+        this.Anio = anio;
     }
 
-    //constructor vacío
-    public Canciones() {
-    }
-
-    //getters
-    public int getAnio() {
-        return Anio;
-    }
-    public String getDuracion() {
-        return Duracion;
-    }
-    public String getGenero() {
-        return Genero;
-    }
-    public String getArtista() {
-        return Artista;
-    }
-    public String getNombre() {
-        return Nombre;
-    }
-
-    //setters
-    public void setNombre(String nombre) {
-        Nombre = nombre;
-    }
-    public void setArtista(String artista) {
-        Artista = artista;
-    }
-    public void setGenero(String genero) {
-        Genero = genero;
-    }
-    public void setDuracion(String duracion) {
-        Duracion = duracion;
-    }
-    public void setAnio(int anio) {
-        Anio = anio;
+    //metodo personalizado
+    public void imprimir(){
+        System.out.println("Nombre: " + this.Nombre);
+        System.out.println("Artista: " + this.Artista);
+        System.out.println("Genero: " + this.Genero);
+        System.out.println("Duracion: " + this.Duracion);
+        System.out.println("Anio: " + this.Anio);
+        System.out.println("-----------------------------------");
     }
 }
