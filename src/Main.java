@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-//Objetos para la clase Auto
+        //Objetos para la clase Auto
         Auto auto1= new Auto("Chevrolet Corsa", "Chevrolet", "Corsa 2GEN", 2000);
         Auto auto2= new Auto("Toyota Rev", "Toyota","Modelo 3", 2018);
 
